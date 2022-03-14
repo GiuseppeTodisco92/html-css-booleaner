@@ -1,0 +1,36 @@
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.contenitore {
+  margin-left: 10px;
+}
+
+.sfondo {
+  /* classe div padre  */
+  background-color: rgb(75, 177, 202);
+  height: 180px;
+  background-image: url(../img/pattern.png);
+  background-position: top;
+}
+
+.logobox {
+  /* classe div figlio */
+  width: 300px;
+  height: auto;
+  position: relative;
+  top: 90px;
+}
+.stile {
+  color: grey;
+}
+.stiledata {
+  color: grey;
+  font-size: small;
+}
+
+a {
+  color: rgb(11, 198, 255);
+  text-decoration: none;
+}
