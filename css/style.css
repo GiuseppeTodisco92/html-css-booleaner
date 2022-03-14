@@ -1,26 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 .contenitore {
-  margin-left: 10px;
+  max-width: 1200px;
+  margin: auto;
+}
+main {
+  margin-top: 20px;
 }
 
 .sfondo {
   /* classe div padre  */
-  background-color: rgb(75, 177, 202);
+  background-color: rgb(78, 160, 255);
   height: 180px;
   background-image: url(../img/pattern.png);
   background-position: top;
 }
 
+h1 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+p {
+  margin-top: 10px;
+}
 .logobox {
   /* classe div figlio */
   width: 300px;
   height: auto;
   position: relative;
   top: 90px;
+  margin-left: 10px;
 }
 .stile {
   color: grey;
@@ -31,6 +54,46 @@ body {
 }
 
 a {
-  color: rgb(11, 198, 255);
+  color: rgb(142, 211, 242);
   text-decoration: none;
+}
+
+.descrizione {
+  font-size: small;
+}
+
+.evidenziatore {
+  background-color: yellow;
+}
+
+/* formattazione tabella  */
+#colonna1 {
+  width: 30%;
+}
+#colonna2 {
+  width: 30%;
+}
+#colonna3 {
+  width: 40%;
+}
+
+table {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  color: white;
+  background-color: rgb(32, 169, 229);
+  text-align: left;
+}
+
+tbody {
+  text-align: left;
+}
+
+.sfondoriga {
+  background-color: rgb(177, 229, 242);
 }
